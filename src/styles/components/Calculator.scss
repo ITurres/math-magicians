@@ -1,0 +1,49 @@
+@import '../variables/colors.scss';
+
+.Calculator {
+  max-width: 350px;
+  background-color: aliceblue;
+}
+
+.Calculator__screen {
+  background-color: $dark-gray;
+  color: $off-white;
+  padding: 0.7em;
+  text-align: end;
+  font-size: 1.3rem;
+}
+
+.Calculator__buttons--holder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
+}
+
+.row {
+  display: contents;
+}
+
+.row:last-child .last-number {
+  grid-column: span 2;
+}
+
+button.operator,
+button.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $light-gray;
+  border: none;
+  height: 3rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  grid-column: span 1;
+}
+
+button.operator.orange {
+  background-color: $dark-orange;
+}
+
+button:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,31 @@
+[
+  [
+    { "content": "AC", "className": "operator" },
+    { "content": "+/-", "className": "operator" },
+    { "content": "%", "className": "operator" },
+    { "content": "÷", "className": "operator orange" }
+  ],
+  [
+    { "content": "7", "className": "number" },
+    { "content": "8", "className": "number" },
+    { "content": "9", "className": "number" },
+    { "content": "x", "className": "operator orange" }
+  ],
+  [
+    { "content": "4", "className": "number" },
+    { "content": "5", "className": "number" },
+    { "content": "6", "className": "number" },
+    { "content": "-", "className": "operator orange" }
+  ],
+  [
+    { "content": "1", "className": "number" },
+    { "content": "2", "className": "number" },
+    { "content": "3", "className": "number" },
+    { "content": "+", "className": "operator orange" }
+  ],
+  [
+    { "content": "0", "className": "number last-number" },
+    { "content": ".", "className": "number" },
+    { "content": "=", "className": "operator orange" }
+  ]
+]
