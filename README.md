@@ -91,8 +91,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **FEATURE 1**
-- **FEATURE 2**
+- **SPA website**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,9 +99,9 @@
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://iturres.github.io/Task-Manager/dist/) -->
+- Soon Available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,7 +179,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **future features 1**
+- [ ] **Calculator component/components**
+- [ ] **Calculator operations**
+- [ ] **SPA with 3 sub-pages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
