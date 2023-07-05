@@ -19,7 +19,20 @@ const Calculator = () => {
     setScreenValue(newScreenValue);
   };
 
-  const screenValueToDisplay = screenValue.next || screenValue.total || 0;
+  const getScreenValueToDisplay = () => {
+    if (
+      screenValue.total === null
+      && screenValue.operation === null
+      && screenValue.next === null
+    ) {
+      return '0';
+    }
+    return `${screenValue.total || ''} ${screenValue.operation || ''} ${
+      screenValue.next || ''
+    }`;
+  };
+
+  const screenValueToDisplay = getScreenValueToDisplay();
 
   return (
     <div className="Calculator">
