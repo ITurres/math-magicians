@@ -25,7 +25,7 @@ const Calculator = () => {
       && screenValue.operation === null
       && screenValue.next === null
     ) {
-      return '0';
+      return 0;
     }
     return `${screenValue.total || ''} ${screenValue.operation || ''} ${
       screenValue.next || ''
