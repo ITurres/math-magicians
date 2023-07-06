@@ -1,7 +1,10 @@
 import Calculator from './components/Calculator';
+import Quote from './components/Quote';
 
-function App() {
-  return <Calculator />;
-}
-
+const App = () => (
+  <>
+    <Calculator />
+    <Quote />
+  </>
+);
 export default App;
