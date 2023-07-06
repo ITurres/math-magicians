@@ -6,8 +6,8 @@ const Quote = () => {
   const [errorOccurred, setErrorOccurred] = useState(false);
 
   useEffect(() => {
-    try {
-      const getQuote = async () => {
+    const getQuote = async () => {
+      try {
         const response = await fetch(
           'https://api.api-ninjas.com/v1/quotes?category=learning&limit=1',
           {
@@ -19,13 +19,13 @@ const Quote = () => {
         const [data] = await response.json();
         setQuote(data);
         setIsLoading(false);
-      };
-
-      getQuote();
-    } catch (error) {
-      setErrorOccurred(true);
-      throw new Error(error);
-    }
+      } catch (error) {
+        setErrorOccurred(true);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    getQuote();
   }, []);
 
   return (
@@ -34,7 +34,9 @@ const Quote = () => {
       {errorOccurred && <div className="error">Error, please try again!</div>}
       {!isLoading && !errorOccurred && (
         <p className="quote">
+          &quot;
           {quote.quote}
+          &quot;
           <span className="quote__author">
             -
             {quote.author}
