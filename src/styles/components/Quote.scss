@@ -1,0 +1,24 @@
+.quote-container {
+  font-size: 1.6rem;
+  text-align: center;
+
+  .loader {
+    color: $dark-orange;
+  }
+
+  .error {
+    color: #950000;
+    text-align: center;
+  }
+
+  .quote,
+  .quote__author {
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  .quote__author {
+    color: $dark-orange;
+    font-weight: 700;
+  }
+}
