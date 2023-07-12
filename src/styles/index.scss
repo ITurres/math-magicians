@@ -1,8 +1,16 @@
 @import 'variables/_colors.scss';
 @import 'components/Calculator.scss';
 @import 'components/Quote.scss';
+@import 'components/Home.scss';
 
 body {
   background-color: #fff;
   color: #000;
+}
+
+.custom-alignment {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 106px);
+  padding-bottom: 3rem;
 }
