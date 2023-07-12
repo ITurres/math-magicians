@@ -35,10 +35,15 @@ const Calculator = () => {
   const screenValueToDisplay = getScreenValueToDisplay();
 
   return (
-    <div className="Calculator">
-      <CalculatorScreen screenValue={screenValueToDisplay} />
-      <CalculatorButtons handleClick={onHandleClick} />
-    </div>
+    <section>
+      <div className="container custom-alignment">
+        <h1>Let&apos;s do some math!</h1>
+        <div className="Calculator">
+          <CalculatorScreen screenValue={screenValueToDisplay} />
+          <CalculatorButtons handleClick={onHandleClick} />
+        </div>
+      </div>
+    </section>
   );
 };
 
