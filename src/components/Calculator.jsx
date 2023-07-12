@@ -36,8 +36,8 @@ const Calculator = () => {
 
   return (
     <section>
-      <div className="container custom-alignment">
-        <h1>Let&apos;s do some math!</h1>
+      <div className="container calculator-container custom-alignment justify-content-evenly">
+        <h1 className="calculator-title">Let&apos;s do some math!</h1>
         <div className="Calculator">
           <CalculatorScreen screenValue={screenValueToDisplay} />
           <CalculatorButtons handleClick={onHandleClick} />
