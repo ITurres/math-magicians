@@ -1,11 +1,30 @@
+.calculator-container {
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    & {
+      flex-direction: row;
+    }
+  }
+}
+
+.calculator-title {
+  font-size: 2.5rem;
+  color: $pink;
+  background: linear-gradient(140deg, $dark-orange, $pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .Calculator {
   max-width: 350px;
   background-color: aliceblue;
+  width: 100%;
 }
 
 .Calculator__screen {
-  background-color: $dark-gray;
-  color: $off-white;
+  background-color: $off-white;
+  color: $pink;
   padding: 0.7em;
   text-align: end;
   font-size: 1.3rem;
@@ -30,16 +49,19 @@ button.number {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $light-gray;
+  background-color: $light-blue;
   border: none;
   height: 3rem;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: $off-white;
   grid-column: span 1;
 }
 
 button.operator.orange {
   background-color: $dark-orange;
+  color: $dark-blue;
 }
 
 button:hover {

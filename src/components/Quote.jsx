@@ -29,9 +29,9 @@ const Quote = () => {
   }, []);
 
   return (
-    <div className="quote-container">
-      {isLoading && <div className="loader">Loading...</div>}
-      {errorOccurred && <div className="error">Error, please try again!</div>}
+    <div className="quote-container container custom-alignment">
+      {isLoading && <div className="loader container custom-alignment">Loading...</div>}
+      {errorOccurred && <div className="error container custom-alignment">Error, please try again!</div>}
       {!isLoading && !errorOccurred && (
         <p className="quote">
           &quot;

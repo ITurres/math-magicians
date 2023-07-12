@@ -1,0 +1,22 @@
+.home-section {
+  flex-direction: column;
+  justify-content: center;
+
+  & h1,
+  & p {
+    margin-bottom: 2rem;
+  }
+
+  & h1 {
+    font-size: 3rem;
+    color: $dark-orange;
+    background: linear-gradient(140deg, $pink, $dark-orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  & p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+}
