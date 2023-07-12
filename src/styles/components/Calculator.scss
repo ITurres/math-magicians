@@ -7,10 +7,11 @@
     }
   }
 }
+
 .calculator-title {
   font-size: 2.5rem;
+  color: $pink;
   background: linear-gradient(140deg, $dark-orange, $pink);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

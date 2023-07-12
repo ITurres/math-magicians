@@ -9,6 +9,10 @@
 
   & h1 {
     font-size: 3rem;
+    color: $dark-orange;
+    background: linear-gradient(140deg, $pink, $dark-orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   & p {
