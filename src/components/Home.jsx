@@ -1,5 +1,5 @@
 const Home = () => (
-  <div className="container d-flex flex-column justify-end">
+  <div className="container home-section custom-alignment">
     <h1>Welcome to Math Magicians!</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis id
