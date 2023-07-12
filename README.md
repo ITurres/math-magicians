@@ -48,6 +48,7 @@
 - Use React components.
 - Use React props.
 - Use React state.
+- Use React routes.
 
 ---
 
