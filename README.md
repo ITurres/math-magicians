@@ -1,9 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-    <h1>🧙</h1>
-    <!-- <img src="src/assets/" alt="" width="130"  height="auto" /> -->
-    <h2><b>Math Magicians</b></h2>
+    <img src="src/assets/media/math-magicians-logo.png" alt="logo" width="150"  height="auto" />
+    <h1><b>Math Magicians</b></h1>
 </div>
 
 ---
@@ -56,34 +55,28 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Markup</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li>
+      <img src="https://skillicons.dev/icons?i=react"/>
+      <a href="https://react.dev/">React.js</a>
+    </li>
+    <li>
+      <img src="https://skillicons.dev/icons?i=js"/>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
+    </li>
+    <li>
+      <img src="https://skillicons.dev/icons?i=sass"/>
+      <a href="https://sass-lang.com/">SASS</a>
+    </li>
+    <li>
+      <img src="https://skillicons.dev/icons?i=bootstrap"/>
+      <a href="https://getbootstrap.com/">Bootstrap</a>
+    </li>
+    <li>
+      <img src="https://skillicons.dev/icons?i=html"/>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
+    </li>
   </ul>
-</details>
-
-<details>
-<summary>Dynamic</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Styles</summary>
-  <ul>
-    <li><a href="https://sass-lang.com/">SASS</a></li>
-    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Frameworks</summary>
-  <ul>
-    <li><a href="https://react.dev/">React.js</a></li>
-  </ul>
-</details>
 
 ---
 
@@ -179,9 +172,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Calculator component/components**
-- [ ] **Calculator operations**
-- [ ] **SPA with 3 sub-pages**
+- [ ] **Deploy**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
