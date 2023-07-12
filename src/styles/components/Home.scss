@@ -1,0 +1,18 @@
+.home-section {
+  flex-direction: column;
+  justify-content: center;
+
+  & h1,
+  & p {
+    margin-bottom: 2rem;
+  }
+
+  & h1 {
+    font-size: 3rem;
+  }
+
+  & p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+}
