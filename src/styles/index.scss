@@ -2,10 +2,11 @@
 @import 'components/Calculator.scss';
 @import 'components/Quote.scss';
 @import 'components/Home.scss';
+@import 'components/Header.scss';
 
 body {
-  background-color: #fff;
-  color: #000;
+  background-color: $dark-blue;
+  color: $off-white;
 }
 
 .custom-alignment {
