@@ -1,0 +1,18 @@
+header {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
+
+  & .navbar__item {
+    font-size: 1.3rem;
+
+    & a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: $off-white;
+      transition: color 0.1s ease-in-out;
+
+      &:hover {
+        color: $pink;
+      }
+    }
+  }
+}
