@@ -3,7 +3,7 @@ import logo from '../assets/media/math-magicians-logo.png';
 
 const Header = () => (
   <header>
-    <nav className="navbar container">
+    <nav className="navbar container p-2">
       <img src={logo} width="90" height="90" alt="logo" />
       <ul className="d-flex list-unstyled mb-0">
         <li className="list-inline-item navbar__item">
