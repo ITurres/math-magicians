@@ -95,7 +95,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Soon Available
+[react-math-magicians.com](https://react-math-magicians-xjeh.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,7 +173,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Deploy**
+- [ ] **Improve Calculator style**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
