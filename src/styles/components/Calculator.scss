@@ -16,24 +16,32 @@
   -webkit-text-fill-color: transparent;
 }
 
+.Calculator,
+.Calculator__screen {
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
 .Calculator {
   max-width: 350px;
-  background-color: aliceblue;
+  background-color: $off-white;
   width: 100%;
+  border: 2px solid $off-black;
 }
 
 .Calculator__screen {
-  background-color: $off-white;
+  background-color: $off-black;
   color: $pink;
-  padding: 0.7em;
   text-align: end;
   font-size: 1.3rem;
+  border: 0.5rem solid $light-blue;
+  margin-bottom: 0.5rem;
 }
 
 .Calculator__buttons--holder {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1px;
+  grid-gap: 0.3rem;
 }
 
 .row {
@@ -42,6 +50,7 @@
 
 .row:last-child .last-number {
   grid-column: span 2;
+  background-color: $pink;
 }
 
 button.operator,
@@ -57,6 +66,7 @@ button.number {
   font-weight: 600;
   color: $off-white;
   grid-column: span 1;
+  border-radius: 2rem;
 }
 
 button.operator.orange {
