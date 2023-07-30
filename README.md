@@ -95,7 +95,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[react-math-magicians.com](https://react-math-magicians-xjeh.onrender.com/)
+- [Live Demo Link](https://iturres.github.io/math-magicians/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
