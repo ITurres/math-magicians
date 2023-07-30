@@ -7,13 +7,13 @@ const Header = () => (
       <img src={logo} width="90" height="90" alt="logo" />
       <ul className="d-flex list-unstyled mb-0">
         <li className="list-inline-item navbar__item">
-          <Link to="/">Home</Link>
+          <Link to="/math-magicians/">Home</Link>
         </li>
         <li className="list-inline-item navbar__item">
-          <Link to="/calculator">Calculator</Link>
+          <Link to="/math-magicians/calculator">Calculator</Link>
         </li>
         <li className="list-inline-item navbar__item">
-          <Link to="/quote">Quote</Link>
+          <Link to="/math-magicians/quote">Quote</Link>
         </li>
       </ul>
     </nav>

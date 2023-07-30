@@ -8,9 +8,9 @@ const App = () => (
   <>
     <Header />
     <Routes>
-      <Route index element={<Home />} />
-      <Route path="calculator" element={<Calculator />} />
-      <Route path="quote" element={<Quote />} />
+      <Route path="/math-magicians/" element={<Home />} />
+      <Route path="/math-magicians/calculator" element={<Calculator />} />
+      <Route path="/math-magicians/quote" element={<Quote />} />
     </Routes>
   </>
 );
